@@ -28,9 +28,13 @@
 </p>
 
 <p>
-  <a href="https://wchkoutian.github.io/engram-website/">Project Page</a>&nbsp;·&nbsp;
-  <a href="https://huggingface.co/Mousky/ENGRAM">Hugging Face</a>&nbsp;·&nbsp;
-  <a href="#citation">BibTeX</a>
+  <a href="https://arxiv.org/abs/2611.28136"><img src="https://img.shields.io/badge/arXiv-2611.28136-B31B1B?style=flat&amp;logo=arxiv&amp;logoColor=white" alt="arXiv paper"></a>
+  &nbsp;
+  <a href="https://wchkoutian.github.io/engram-website/"><img src="https://img.shields.io/badge/Project-Page-2563EB?style=flat&amp;logo=githubpages&amp;logoColor=white" alt="Project page"></a>
+  &nbsp;
+  <a href="https://huggingface.co/Mousky/ENGRAM/tree/main"><img src="https://img.shields.io/badge/Hugging%20Face-Weights-FFB300?style=flat&logo=huggingface&logoColor=white" alt="Hugging Face weights"></a>
+  &nbsp;
+  <a href="#citation"><img src="https://img.shields.io/badge/BibTeX-Citation-4F46E5?style=flat" alt="BibTeX citation"></a>
 </p>
 
 </div>
@@ -252,7 +256,10 @@ We thank [Wan2.2](https://github.com/Wan-Video/Wan2.2), [MapAnything](https://gi
 @misc{wu2026engram,
   title = {{ENGRAM}: Reliability-Weighted Latent Fusion and Occlusion-Aware Layered Readout for Video World Models},
   author = {Chenhao Wu and Zhaolong Su and Yang Liu and Tianrui Su and Yingguang Yang and Shang Luo and Yancheng Chen and Chongyang Zhang and Hao Zheng and Kefu Xu and Congjing Ran and Bin Chong},
-  year = {2026}
+  year = {2026},
+  eprint = {2611.28136},
+  archivePrefix = {arXiv},
+  url = {https://arxiv.org/abs/2611.28136}
 }
 ```
 
