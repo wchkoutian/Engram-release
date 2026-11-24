@@ -1,0 +1,9 @@
+{
+  "scenes": [
+    {
+      "sample_id": "00000000",
+      "source_path": "datasets/re10k/raw/source.mp4",
+      "source_start_seconds": 0.0
+    }
+  ]
+}

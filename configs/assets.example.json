@@ -1,0 +1,16 @@
+{
+  "wan_model": "models/Wan2.2-TI2V-5B-Diffusers",
+  "mapanything_model": "models/map-anything",
+  "torch_home": "models/torch",
+  "latent_stats": "checkpoints/ENGRAM/wan_latent_stats.pt",
+  "stage1_checkpoint": "checkpoints/ENGRAM/stage1_step_4000.pt",
+  "checkpoint": "checkpoints/ENGRAM/stage2_step_8000.pt",
+  "checkpoint_sha256": "REPLACE_WITH_THE_ACTUAL_64_CHARACTER_SHA256",
+  "training_root": "work/training_cache",
+  "training_lmdb": "datasets/re10k/precomputed_train_wan_model_v1.lmdb",
+  "training_samples": "datasets/re10k/samples",
+  "training_scenes": "configs/re10k_train256_scenes.json",
+  "text_bundle": "checkpoints/ENGRAM/empty-text-bundle.pt",
+  "re10k_data": "datasets/re10k_test100",
+  "caption_model": "models/Qwen2.5-VL-7B-Instruct"
+}

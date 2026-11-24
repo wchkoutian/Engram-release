@@ -1,0 +1,32 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite ENGRAM."
+title: "ENGRAM: Reliability-Weighted Latent Fusion and Occlusion-Aware Layered Readout for Video World Models"
+type: software
+version: 0.1.0
+license: MIT
+authors:
+  - family-names: Wu
+    given-names: Chenhao
+  - family-names: Su
+    given-names: Zhaolong
+  - family-names: Liu
+    given-names: Yang
+  - family-names: Su
+    given-names: Tianrui
+    affiliation: University of New South Wales
+  - family-names: Yang
+    given-names: Yingguang
+  - family-names: Luo
+    given-names: Shang
+  - family-names: Chen
+    given-names: Yancheng
+  - family-names: Zhang
+    given-names: Chongyang
+  - family-names: Zheng
+    given-names: Hao
+  - family-names: Xu
+    given-names: Kefu
+  - family-names: Ran
+    given-names: Congjing
+  - family-names: Chong
+    given-names: Bin

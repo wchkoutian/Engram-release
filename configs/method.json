@@ -1,0 +1,69 @@
+{
+  "backbone": "Wan2.2-TI2V-5B",
+  "training": {
+    "scene_count": 256,
+    "window_count": 2304,
+    "effective_batch": 4,
+    "stage1_updates": 4000,
+    "stage2_updates": 8000,
+    "stage1_trainable": "side_branch",
+    "stage2_trainable": "full_transformer",
+    "lora": false
+  },
+  "inference": {
+    "image_resolution_wh": [
+      1280,
+      704
+    ],
+    "latent_shape": [
+      1,
+      48,
+      9,
+      44,
+      80
+    ],
+    "conditioning_shape": [
+      1,
+      108,
+      9,
+      44,
+      80
+    ],
+    "sampling_steps": 40,
+    "scheduler": "UniPC",
+    "cfg": 1.0,
+    "top_k": 2,
+    "write_gate": "real-anchor veto: drop generated candidate if projected valid seed depth and z < 0.9 * seed_depth",
+    "generated_writeback": true,
+    "immutable_real_slots": true,
+    "prefix": "optimize single-frame latent against decoded generated last RGB, VAE fixed",
+    "inversion": {
+      "optimizer": "Adam",
+      "steps": 50,
+      "learning_rate": 0.02,
+      "loss": "mean absolute RGB reconstruction error"
+    }
+  },
+  "re10k": {
+    "variant": "e11_invhandoff",
+    "nvs_frames": 81,
+    "closed_loop_frames": 153,
+    "nvs_score_frames": "1..80",
+    "closed_loop_score_pair": [
+      152,
+      0
+    ],
+    "generation_seed": 20917,
+    "text": "empty",
+    "mp4_fps": 24
+  },
+  "worldscore": {
+    "frames": 81,
+    "generation_seed": 42,
+    "mp4_fps": 16,
+    "negative_prompt": null,
+    "re10k_scalecal": false,
+    "text_schedule": "different-content static cases: prompt0 for chunk0, prompt1 for chunks1/2"
+  },
+  "note": "Descriptive archived recipe; executable contracts are in scripts/core.py and scripts/contracts.py. Asset locations are configured separately."
+}

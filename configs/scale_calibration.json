@@ -1,0 +1,10 @@
+{
+  "identifier": "scalecal_unit_v1",
+  "created": "2026-10-22",
+  "model": "log s = a + b * log(unit_metres); translation *= s (unit_metres = I0 MapAnything median, metres)",
+  "a": -0.721,
+  "b": 0.664,
+  "fit": "Least squares on 494 training clips with timestamp-matched RE10K SfM poses; test scenes not used for fitting.",
+  "cv5_rmse_log": 0.329,
+  "baseline_s1_rmse_log": 0.462
+}

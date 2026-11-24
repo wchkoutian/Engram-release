@@ -1,0 +1,10 @@
+{
+  "cases": [
+    {
+      "name": "static_000",
+      "input_directory": "../datasets/worldscore_prepared/static_000",
+      "positive_prompt": "A sunlit room with a wooden table. Photorealistic.",
+      "positive_prompt_2": "A sunlit room with a wooden table. Photorealistic."
+    }
+  ]
+}
